@@ -1,7 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 function Home() {
-  return <h1>clone-tabnews</h1>;
+  return (
+    <div className="construction-container">
+      <h1 className="construction-text">Em Construção</h1>
+    </div>
+  );
 }
 
 export default Home;
